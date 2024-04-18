@@ -1,0 +1,38 @@
+
+# To uninstall the react app
+npm uninstall -g create-react-app
+
+# To clear cache once uninstall is done
+npm cache clean --force
+
+# To create a react app (The full stop is for the current folder or mention a folder name so it creates a
+npx create-react-app .
+
+# To install router dom
+npm install react-router-dom
+
+# Starts the development server.
+npm start
+
+
+# Bundles the app into static files for production.
+npm run build
+
+# Starts the test runner.
+npm test
+
+# Removes this tool and copies build dependencies, configuration files
+# and scripts into the app directory. If you do this, you can’t go back!
+npm run eject
+
+Step 1
+# To convert the JSX file to component using the below command , rafc - reactArrowFunctionComponent
+rafc  
+
+Step 2 
+Mount components like (Navbar.jsx)
+We have wrap all the components in the Browser router
+
+
+
+
